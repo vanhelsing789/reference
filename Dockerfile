@@ -2,6 +2,6 @@
 # https://github.com/lipanski/docker-static-website
 FROM wcjiang/docker-static-website:latest
 
-# Copy the static website
+# Copy the static 
 # Use the .dockerignore file to control what ends up inside the image!
 COPY ./dist .
